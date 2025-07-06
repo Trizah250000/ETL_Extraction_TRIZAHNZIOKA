@@ -12,3 +12,8 @@ last_extraction.txt
 # Transformed CSV outputs
 transformed_full.csv
 transformed_incremental.csv
+
+# Loaded database outputs
+*.db
+*.parquet
+loaded_data/
