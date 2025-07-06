@@ -1,7 +1,14 @@
-
+# Ignore Jupyter and Python temp files
 .ipynb_checkpoints/
 __pycache__/
+
+# Logs and SQLite files
 *.log
 *.sqlite
+
+# Extraction timestamp
 last_extraction.txt
 
+# Transformed CSV outputs
+transformed_full.csv
+transformed_incremental.csv
